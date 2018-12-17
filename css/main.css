@@ -49,11 +49,18 @@ input {
 }
 
 /* стили табов */
+.tabs-wrapper{
+	width: 61%;
+    margin: 0 auto;
+    border: 2px solid #008cff;
+    border-radius: 8px;
+    background: transparent;
+    padding: 5px 0;
+}
 .tabs__caption {	
 	display: flex;	
 	list-style: none;
-	position: relative;
-	margin: -1px 0 0 -1px;
+	position: relative;	
 }
 .tabs__caption li {	
 	float: left;
@@ -88,7 +95,7 @@ input {
 .tabs__content {
 	display: none;
 	background: #FFF;	
-	height: 700px;
+	height: auto;
 }
 .tabs__content.active {
 	display: block;
@@ -97,7 +104,7 @@ input {
     padding: 0;
     margin: 0 auto;
     position: relative;
-    width: 61%;
+    width: 99%;
     font-family: 'Baron Neue';
     min-height: 500px;
     background: #fff;
@@ -121,7 +128,7 @@ input {
     width: 100%;
 }
 .location{
-    width: 95.3%;
+    width: 97.5%;
     margin: 0 auto;
     border: 2px solid #008aff;
 }
