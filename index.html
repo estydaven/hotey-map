@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <title> Tabs</title>  
+  <link href="#" rel="shortcut icon"> 
+</head>
+<body> 
+<!-- ТАБЫ --> 
+<div class="tabs" id="tabs">
+    <ul class="tabs__caption">
+        <li class="active">rus <br><span class="city">москва</span></li>
+        <li>blr <span class="city"><br>минск</span></li>
+        <li>cze <span class="city"><br>прага</span></li>
+        <li>lva <span class="city"><br>рига</span></li>
+        <li>ltu <span class="city"><br>вильнюс</span></li>
+        <li>ua <span class="city"><br>киев</span></li>
+    </ul>            
+    <div class="tabs__content active">
+        <span>главный офис, 125167, г. москва, ул. константина симонова, дом 5, корп. 2, оф-41, +7 029 773-73-68    +7 044 773-73-68    Hotey-tech@mail.ru </span>
+        <div class="location">   
+            <div class="map" id="map-rus"></div>
+        </div>     
+    </div> 
+    <div class="tabs__content">
+        <span>г. минск, ул. казинца 11-а, гермес-центр </span>
+        <div class="location">   
+            <div class="map" id="map-blr"></div>
+        </div> 
+    </div>
+    <div class="tabs__content">
+        <span>г. прага, ул. колбенова, прага-9</span>
+        <div class="location">   
+            <div class="map" id="map-cze"></div>
+        </div> 
+    </div>      
+    <div class="tabs__content">
+        <span>г. рига, ул. гертрудес, дом 11 </span>
+        <div class="location">   
+            <div class="map" id="map-lva"></div>
+        </div> 
+    </div>                
+    <div class="tabs__content">
+        <span>г. вильнюс, snipisk se. konstitucijos pr. </span>
+        <div class="location">   
+            <div class="map" id="map-ltu"></div>
+        </div> 
+    </div>
+    <div class="tabs__content">
+        <span>4104071, г. киев, ул.верхний вал 64 </span>
+        <div class="location">   
+            <div class="map" id="map-ua"></div>
+        </div> 
+    </div>      
+</div>
+<!-- ТАБЫ END -->       
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/baronneue.css">    
+<script src="js/jquery-3.3.1.min.js"></script>  
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>    
+<script src="js/app.js" async></script>  
+</body>
+</html>
